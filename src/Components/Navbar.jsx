@@ -10,9 +10,9 @@ function Navbar() {
     <div className='flex justify-between pt-5 pl-5 pr-2 ease-in duration-300 max-w-[1400px]' >
         <h1 className="font-bold text-2xl my-auto text-[#6FEDD6] md:ml-12">Vishnu.</h1>
         <ul className='md:flex my-auto text-white hidden '>
-            <li className='p-4 cursor-pointer text-white hover:text-[#6FEDD6] '>Home</li>
-            <li className='p-4 cursor-pointer text-white hover:text-[#6FEDD6] '>About me</li>
-            <li className='p-4 cursor-pointer text-white hover:text-[#6FEDD6] '>Projects</li>
+            <li className='p-4 cursor-pointer text-white hover:text-[#6FEDD6] ' ><a href='#home'>Home</a></li>
+            <li className='p-4 cursor-pointer text-white hover:text-[#6FEDD6] '><a href='#about'>About me</a></li>
+            <li className='p-4 cursor-pointer text-white hover:text-[#6FEDD6] '><a href='#projects'>Projects</a></li>
             <li className='p-4 cursor-pointer text-white hover:text-[#6FEDD6] '>Contact me</li>
         </ul>
         <div onClick={()=>{handleNav()}} className='text-white md:hidden'>

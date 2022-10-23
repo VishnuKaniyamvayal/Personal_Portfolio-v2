@@ -5,7 +5,7 @@ import todo from "../assets/todo.png"
 
 function Projects() {
   return (
-    <div className='bg-gradient-to-b from-[#0f1e26] to-[#000300]'>
+    <div className='bg-gradient-to-b from-[#0f1e26] to-[#000300]' id='projects'>
         <h1 className='text-white bg-transparent text-center text-5xl font-bold'>Projects</h1>
         <div className='bg-transparent grid md:grid-cols-2 lg:grid-cols-3'>
             <div className=' bg-transparent p-10 border rounded-xl m-6 mt-10 border-gray-700 hover:scale-105 duration-300 shadow-lg'>
@@ -27,7 +27,7 @@ function Projects() {
                 <h1 className='bg-transparent text-white text-center mx-auto justifiy-center font-bold mt-2'>TODO APP</h1>
                 <h1 className='bg-transparent text-white'>Description :</h1>
                 <p className='bg-transparent text-white'>My first ever react project. a big upgrade is coming soon</p>
-                <button className='bg-transparent text-[#4ad2b2] text-center mx-auto justify-center mt-4 m  focus:border-green-300 hover:text-green-200'>Go to code</button>
+                <button className='bg-transparent text-[#4ad2b2] text-center mx-auto justify-center mt-4 m  focus:border-green-300 hover:text-green-200' onClick={()=>{window.open("https://github.com/VishnuKaniyamvayal/Todo-list")}}>Go to code</button>
             </div>
         </div>
     </div>

@@ -3,7 +3,7 @@ import image from "../assets/image.jpg"
 
 function About() {
   return (
-    <div className='bg-gradient-to-b from-[#000300] to-[#0f1e26] '>
+    <div className='bg-gradient-to-b from-[#000300] to-[#0f1e26] ' id='about'>
         <div className=' bg-transparent pt-16 grid md:grid-cols-2 pb-16 '>
             <img src={image}alt="/" className='mx-auto max-w-[300px]  rounded-full md:max-w-[400px] md:rounded-2xl md:mx-auto' />
             <div className='bg-transparent'>
