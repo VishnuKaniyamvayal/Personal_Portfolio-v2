@@ -8,12 +8,12 @@ function Navbar() {
     }
   return (
     <div className='flex justify-between pt-5 pl-5 pr-2 ease-in duration-300 max-w-[1400px]' >
-        <h1 className="font-bold text-2xl my-auto text-[#6FEDD6] md:ml-12">Vishnu</h1>
+        <h1 className="font-bold text-2xl my-auto text-[#6FEDD6] md:ml-12">Vishnu.</h1>
         <ul className='md:flex my-auto text-white hidden '>
             <li className='p-4 cursor-pointer text-white hover:text-[#6FEDD6] '>Home</li>
             <li className='p-4 cursor-pointer text-white hover:text-[#6FEDD6] '>About me</li>
             <li className='p-4 cursor-pointer text-white hover:text-[#6FEDD6] '>Projects</li>
-            <li className='p-4 cursor-pointer text-white hover:text-[#6FEDD6] '>Contacts</li>
+            <li className='p-4 cursor-pointer text-white hover:text-[#6FEDD6] '>Contact me</li>
         </ul>
         <div onClick={()=>{handleNav()}} className='text-white md:hidden'>
         {!nav?<RiMenu3Fill  size="20px"/>:<AiOutlineClose/>}
@@ -22,7 +22,7 @@ function Navbar() {
             <li className='my-10 mx-9 '>Home</li>
             <li className='my-10 mx-9 '>About me</li>
             <li className='my-10 mx-9 '>Projects</li>
-            <li className='my-10 mx-9 '>Contacts</li>
+            <li className='my-10 mx-9 '>Contact me</li>
         </ul>
     </div>
     
