@@ -45,11 +45,11 @@ function Contact() {
             <div className=' bg-transparent md:col-span-2 flex flex-col '>
                 <form method='POST' action="https://getform.io/f/4de49232-cbbf-47d9-9056-e0adaa3df438" className='bg-transparent'>
                 <div className='bg-transparent flex flex-col md:flex-row mt-8 md:mt-0 items-center pr-4 '>
-                    <input name='name' type="text" placeholder='YOUR NAME' className='text-gray-300 bg-gray-500 bg-opacity-10 rounded-3xl text-lg  w-[75%] md:w-[50%] text-center ml-[90px] border-cyan-300 py-3 mt-4 mx-auto max-h-12'/>
-                    <input name='email' type="email" placeholder='YOUR E-MAIL' className='text-gray-300 bg-gray-500 bg-opacity-10 rounded-3xl text-lg  w-[75%] md:w-[50%] text-center ml-[90px] border-cyan-300 py-3 mt-4 mx-auto max-h-12'/>
+                    <input name='name' type="text" placeholder='YOUR NAME' className='text-gray-300 bg-gray-500 bg-opacity-10 rounded-3xl text-lg  w-[75%] md:w-[50%] text-center ml-[70px] border-cyan-300 py-3 mt-4 mx-auto max-h-12'/>
+                    <input name='email' type="email" placeholder='YOUR E-MAIL' className='text-gray-300 bg-gray-500 bg-opacity-10 rounded-3xl text-lg  w-[75%] md:w-[50%] text-center ml-[70px] border-cyan-300 py-3 mt-4 mx-auto max-h-12'/>
                 </div>
-                <input name='subject' type="text" placeholder='YOUR SUBJECT' className='text-gray-300 bg-gray-500 bg-opacity-10 rounded-3xl text-lg  w-[73%] md:w-[81%] lg:w-[88%] text-center ml-[90px] border-cyan-300 py-2 mt-4 mx-auto h-16'/>
-                <input name='message' type="text" placeholder='YOUR MESSAGE' className='text-gray-300 bg-gray-500 bg-opacity-10 rounded-3xl text-lg  w-[73%] md:w-[81%] lg:w-[88%] text-center ml-[90px] border-cyan-300 py-2 mt-4 mx-auto h-40'/>
+                <input name='subject' type="text" placeholder='YOUR SUBJECT' className='text-gray-300 bg-gray-500 bg-opacity-10 rounded-3xl text-lg  w-[73%] md:w-[81%] lg:w-[88%] text-center ml-[70px] border-cyan-300 py-2 mt-4 mx-auto h-16'/>
+                <input name='message' type="text" placeholder='YOUR MESSAGE' className='text-gray-300 bg-gray-500 bg-opacity-10 rounded-3xl text-lg  w-[73%] md:w-[81%] lg:w-[88%] text-center ml-[70px] border-cyan-300 py-2 mt-4 mx-auto h-40'/>
                 
                     <button type='submit' className='bg-transparent text-black flex justify-center mx-auto  bg-gradient-to-br from-[#40d9bd] to-[#4ad29a] rounded-xl w-[200px] h-[50px] mt-6 my-auto text-center pt-2.5 text-xl font-bold hover:shadow-md '>Submit</button>
                 </form>
