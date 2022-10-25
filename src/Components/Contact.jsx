@@ -32,7 +32,7 @@ function Contact() {
                     <BsFillTelephoneFill className='bg-transparent text-green-400 mr-4' size={30}/>
                     <h1 className='bg-transparent text-[23px] text-gray-400'>PHONE</h1>
                     </div>
-                    <p className='bg-transparent  font-bold text-center md:text-lg md:text-left ml-3'>Kaniyamvayal,Padanthorai<br/>gudalur-643211 the nilgiris
+                    <p className='bg-transparent  font-bold text-center md:text-lg md:text-left ml-3'>9487682258
                     </p>
                 </div>
                 <div className='bg-transparent flex justify-center md:justify-start mt-4 gap-5'>
