@@ -32,6 +32,7 @@ function Projects() {
                 <button className='bg-transparent text-[#4ad2b2] text-center mx-auto justify-center mt-4 m  focus:border-green-300 hover:text-green-200' onClick={()=>{window.open("https://github.com/VishnuKaniyamvayal/Todo-list")}}>Go to code</button>
             </div>
         </div>
+        
     </div>
   )
 }

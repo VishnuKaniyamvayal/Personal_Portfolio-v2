@@ -2,8 +2,10 @@ import React from 'react'
 import {MdLocationOn} from "react-icons/md"
 import {IoMdMail} from "react-icons/io"
 import {BsFillTelephoneFill,BsLinkedin} from "react-icons/bs"
-import {AiFillInstagram} from "react-icons/ai"
+import {AiFillInstagram,AiOutlineArrowUp} from "react-icons/ai"
 import {FaFacebookSquare,FaGithubSquare} from "react-icons/fa"
+import {Link} from "react-scroll"
+
 
 function Contact() {
   return (
@@ -54,6 +56,10 @@ function Contact() {
                     <button type='submit' className='bg-transparent text-black flex justify-center mx-auto  bg-gradient-to-br from-[#40d9bd] to-[#4ad29a] rounded-xl w-[200px] h-[50px] mt-6 my-auto text-center pt-2.5 text-xl font-bold hover:shadow-md '>Submit</button>
                 </form>
             </div>
+        </div>
+        <div className='bg-transparent flex flex-col items-center md:hidden'>
+          <Link className='bg-transparent' to="home"  smooth={true} offset={0} duration={500}> <AiOutlineArrowUp className='bg-transparent text-gray-400 mr-4 ml-4 mt-16 mb-2 animate-bounce '  size={28}/></Link>
+           <h1 className='bg-transparent text-gray-400 font-light text-sm mb-8'>GO TO TOP</h1> 
         </div>
     </div>
   )
