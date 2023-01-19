@@ -1,12 +1,16 @@
-import React, { useState } from 'react'
+import React from 'react'
 import olx from "../assets/olx.png"
 import netflix from "../assets/netflix.png"
 import todo from "../assets/todo.png"
 import Linkedin from "../assets/Linkedin.png"
 import{ MdMonitor} from "react-icons/md"
+import { useSelector } from 'react-redux'
 function Projects() {
-    const [dark,setDark] = useState(true)
-    
+   
+    const theme = useSelector(state=>state.theme.value)
+  
+    let dark=theme   
+
   return(
     <div className={`${dark?"bg-gradient-to-b from-[#0f1e26] to-[#000300]":"bg-gradient-to-b from-[#e5fbf0] to-white"}`} id='projects'>
         <h1 className={`${dark?"text-white":"text-gray-700"} bg-transparent text-center text-5xl font-bold`}>PROJECTS</h1>

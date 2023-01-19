@@ -1,9 +1,14 @@
 import React from 'react'
-import { useState } from 'react'
+import { useSelector } from 'react-redux'
 import image from "../assets/image.jpg"
 
 function About() {
-  const [dark,setDark] = useState(true)
+  
+  const theme = useSelector(state=>state.theme.value)
+  
+  let dark=theme
+
+
   return (
     <div className={`${dark?"bg-gradient-to-b from-[#000300] to-[#0f1e26]":"bg-gradient-to-b from-white to-[#e5fbf0]"}`} id='about'>
         <div className=' bg-transparent pt-16 grid md:grid-cols-2 pb-16 '>

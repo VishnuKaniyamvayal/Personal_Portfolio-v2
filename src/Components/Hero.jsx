@@ -1,7 +1,12 @@
-import React,{useState} from 'react'
+import React from 'react'
 import {BsChevronCompactDown} from "react-icons/bs"
+import { useSelector } from 'react-redux'
 function Hero() {
-  const [dark,setDark] = useState(true)
+
+  const theme = useSelector(state=>state.theme.value)
+  
+  let dark=theme
+
   return (
     <div className='' id='home'>
         <div className={`flex flex-col my-auto text-center h-screen mt-[-45px] justify-center p-4 ${dark?"bg-[#00300]":"bg-white"}`}>

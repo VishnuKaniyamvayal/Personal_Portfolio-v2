@@ -1,15 +1,18 @@
-import React, { useState } from 'react'
+import React from 'react'
 import {MdLocationOn} from "react-icons/md"
 import {IoMdMail} from "react-icons/io"
 import {BsFillTelephoneFill,BsLinkedin} from "react-icons/bs"
 import {AiFillInstagram,AiOutlineArrowUp} from "react-icons/ai"
 import {FaFacebookSquare,FaGithubSquare} from "react-icons/fa"
 import {Link} from "react-scroll"
+import { useSelector } from 'react-redux'
 
 
 function Contact() {
 
-    const [dark,setDark] = useState(true)
+    const theme = useSelector(state=>state.theme.value)
+  
+  let dark=theme
 
   return (
     <div className={`${dark?"bg-gradient-to-t from-[#0f1f26] to-[#000300] mt-16":"bg-gradient-to-t from-[#e5fbf0] to-white mt-16"}`} id='contact'>
