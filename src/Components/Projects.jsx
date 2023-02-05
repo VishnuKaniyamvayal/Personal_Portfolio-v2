@@ -52,7 +52,7 @@ function Projects() {
                 <img className='rounded-xl' src={Linkedin} alt="/" />
                 <h1 className={`bg-transparent ${dark?"text-white":"text-black"} text-center mx-auto justifiy-center font-bold mt-2`}>Linkedin Clone</h1>
                 <h1 className={`bg-transparent ${dark?"text-white":"text-black"}`}>Description :</h1>
-                <p className={`bg-transparent font-light ${dark?"text-white":"text-black"}`}>Linkedin clone built using react,redux and firebase </p>
+                <p className={`bg-transparent font-light ${dark?"text-white":"text-black"}`}>Linkedin clone built using react redux and firebase is used for backend </p>
                 <div className='bg-transparent flex justify-between mt-4'>
                     <button className={`  ${dark?"text-[#4ad2b2]  focus:border-green-300 hover:text-green-200":"text-white bg-green-500 p-2 rounded-md  "} my-auto left-0`} onClick={()=>{ window.open("https://github.com/VishnuKaniyamvayal/Linkedin-clone")}}>Go to code</button>
                 <MdMonitor className='bg-transparent hover:text-gray-200 text-gray-400 cursor-pointer my-auto mt-6.5' onClick={()=>{ window.open("https://linkedin-clone-c2f74.web.app/")}}/>
