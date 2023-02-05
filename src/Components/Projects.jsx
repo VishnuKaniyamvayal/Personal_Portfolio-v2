@@ -5,6 +5,7 @@ import todo from "../assets/todo.png"
 import Linkedin from "../assets/Linkedin.png"
 import{ MdMonitor} from "react-icons/md"
 import { useSelector } from 'react-redux'
+import amazon from "../assets/amazon.png"
 function Projects() {
    
     const theme = useSelector(state=>state.theme.value)
@@ -55,6 +56,16 @@ function Projects() {
                 <div className='bg-transparent flex justify-between mt-4'>
                     <button className={`  ${dark?"text-[#4ad2b2]  focus:border-green-300 hover:text-green-200":"text-white bg-green-500 p-2 rounded-md  "} my-auto left-0`} onClick={()=>{ window.open("https://github.com/VishnuKaniyamvayal/Linkedin-clone")}}>Go to code</button>
                 <MdMonitor className='bg-transparent hover:text-gray-200 text-gray-400 cursor-pointer my-auto mt-6.5' onClick={()=>{ window.open("https://linkedin-clone-c2f74.web.app/")}}/>
+                </div>
+            </div>
+            <div  className={` ${dark?"bg-transparent p-10 border rounded-xl m-6 mt-10 border-gray-700 hover:scale-105 duration-300 shadow-lg  ease-in-out opacity-100":"bg-white p-10 border rounded-xl m-6 mt-10 border-none hover:scale-105 duration-300 shadow-lg  ease-in-out opacity-100"}`}>
+                <img className='rounded-xl' src={amazon} alt="/" />
+                <h1 className={`bg-transparent ${dark?"text-white":"text-black"} text-center mx-auto justifiy-center font-bold mt-2`}>Amazon Clone</h1>
+                <h1 className={`bg-transparent ${dark?"text-white":"text-black"}`}>Description :</h1>
+                <p className={`bg-transparent font-light ${dark?"text-white":"text-black"}`}> fully responsive Amazon clone build using Nextjs and tailwind</p>
+                <div className='bg-transparent flex justify-between mt-4'>
+                    <button className={`  ${dark?"text-[#4ad2b2]  focus:border-green-300 hover:text-green-200":"text-white bg-green-500 p-2 rounded-md  "} my-auto left-0`} onClick={()=>{ window.open("https://github.com/VishnuKaniyamvayal/amazon-clone")}}>Go to code</button>
+                <MdMonitor className='bg-transparent hover:text-gray-200 text-gray-400 cursor-pointer my-auto mt-6.5' onClick={()=>{ window.open("https://amazon-clone-2ubr8hqf7-vishnukaniyamvayal.vercel.app/")}}/>
                 </div>
             </div>
         </div>
