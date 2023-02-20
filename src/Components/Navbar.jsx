@@ -35,7 +35,7 @@ function Navbar() {
     }
   return (
     <div className={`bg-transparent flex justify-between pt-5 pl-5 pr-2 ease-in duration-300 max-w-[1400px] ${dark?"bg-black":"bg-white"}}`} >
-        <a className={`bg-transparent font-bold text-2xl my-auto ${dark?"text-[#6FEDD6]":"text-black"} md:ml-12 cursor-pointer`} href="https://vishnu-official.netlify.app/" >Vishnu.</a>
+        <a className={`bg-transparent font-bold text-2xl my-auto ${dark?"text-[#6FEDD6]":"text-black"} md:ml-12 cursor-pointer`} href="https://vishnuofficial.vercel.app/" >Vishnu.</a>
         <ul className='md:flex my-auto text-white hidden bg-transparent ${dark?"bg-[#00300]":"bg-white"}'>
             <li className={`bg-transparent p-4 cursor-pointer ${dark?"text-white hover:text-[#6FEDD6]":"text-gray-500 hover:text-black"} `} ><Link className={`bg-transparent p-4 cursor-pointer ${dark?"text-white hover:text-[#6FEDD6]":"text-gray-500 hover:text-black"} `}  to="home" spy={true} smooth={true} offset={50} duration={500} >Home</Link></li>
             <li className={`bg-transparent p-4 cursor-pointer ${dark?"text-white hover:text-[#6FEDD6]":"text-gray-500 hover:text-black"} `}><Link className={`bg-transparent p-4 cursor-pointer ${dark?"text-white hover:text-[#6FEDD6]":"text-gray-500 hover:text-black"} `}  to="about" spy={true} smooth={true} offset={-250} duration={500} >About me</Link></li>
