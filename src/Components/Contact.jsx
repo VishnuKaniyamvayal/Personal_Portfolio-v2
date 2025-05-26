@@ -23,7 +23,7 @@ function Contact() {
                 <div className='bg-transparent'>
                     <div className='bg-transparent flex justify-center mt-8 mb-4 md:justify-start pr-4'>
                     <MdLocationOn className='bg-transparent text-green-400 mr-4' size={30}/>
-                    <h1 className='bg-transparent text-[23px] text-gray-400'>ADDRESS</h1>
+                    <h1 className='bg-transparent text-[23px] text-gray-400'>YOUR ADDRESS</h1>
                     </div>
                     <p className={`${dark?"text-white":"text-gray-500"} bg-transparent  font-bold text-center md:text-lg md:text-left ml-3`}>Kaniyamvayal,Padanthorai<br/>gudalur-643211 the nilgiris
                     </p>
